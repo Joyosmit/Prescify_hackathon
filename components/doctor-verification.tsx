@@ -44,7 +44,7 @@ export function DoctorVerificationForm() {
       const provider = new ethers.BrowserProvider(window.ethereum);
       const signer = await provider.getSigner();
       const contract = new ethers.Contract(CONTRACT_ADDRESS, contractABI.abi, signer);
-
+      console.log("This is doctor: ",doctorAddress)
       const doctor = await contract.doctors(doctorAddress);
       console.log("Fetched Doctor: ", doctor);
 
@@ -54,7 +54,7 @@ export function DoctorVerificationForm() {
       const data = await getFile(doctorVerifierIPFS);
       console.log("This is my data: ", data);
 
-
+      // @ts-ignore
       const verifierList = data?.split(",").map((addr) => addr.trim().toLowerCase());
 
     // Get signer’s address and check if it's in the verifier list
