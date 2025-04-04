@@ -9,8 +9,7 @@ We envision a future where prescription verification is seamless, trustless, and
 Prescify is built with compliance to privacy laws. It does not store any user-related data without encryption. Prescription issuance and medicine dispensation are handled by registered and verified professionals.
 
 ---
-## Workflow
-⚡ **YouTube Link** - https://www.youtube.com/watch?v=CSFLqrFzrU0
+
 
 ## 🔹 Features
 ✅ **Blockchain Security** – Immutable records stored on Ethereum Sepolia  
