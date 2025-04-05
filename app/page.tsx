@@ -58,11 +58,13 @@ export default function Home() {
           
           {/* Wallet Connection Section */}
           <div id="connect" className="mb-16">
+            <center>
             <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-8 md:p-10 border border-gray-100">
               <h2 className="text-2xl font-semibold text-gray-800 mb-6">Connect Your Wallet</h2>
               <p className="text-gray-600 mb-8">Securely access your prescription information with blockchain technology</p>
+
               <WalletConnection />
-            </div>
+            </div></center>
           </div>
           
           {/* Features Section */}

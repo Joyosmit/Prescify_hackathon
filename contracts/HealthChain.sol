@@ -296,10 +296,4 @@ contract HealthChain {
     ) external view returns (Prescription memory) {
         return prescriptions[_prescriptionId];
     }
-
-    function getPatientPrescriptions(
-        string memory _patientHash
-    ) external view returns (string[] memory) {
-        return patientPrescriptions[_patientHash];
-    }
 }
