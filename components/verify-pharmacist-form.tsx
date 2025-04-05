@@ -54,7 +54,7 @@ export function PharmacistVerificationForm() {
       const data = await getFile(pharmacistVerifierIPFS);
       console.log("This is my data: ", data);
 
-
+      // @ts-ignore
       const verifierList = data?.split(",").map((addr) => addr.trim().toLowerCase());
 
     // Get signer’s address and check if it's in the verifier list

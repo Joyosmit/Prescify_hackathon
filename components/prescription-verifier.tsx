@@ -75,6 +75,7 @@ export function PrescriptionVerifier() {
       ipfsData &&
       hash &&
       // ipfsData?.patientHash === patientAddress &&
+      // @ts-ignore
       ipfsData?.prescriptionHash === hash
     ) {
       setVerificationResult("valid");
