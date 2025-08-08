@@ -1,5 +1,9 @@
 # 📜 Prescify
 
+## 👨 Team mates: 
+Advay Dhar
+Joyosmit Pal 
+
 ## 🚀 Mission
 Prescify aims to revolutionize prescription verification using blockchain technology. Our mission is to eliminate prescription fraud, enhance data security, and create a transparent, decentralized healthcare system where medical records are immutable, accessible, and verifiable by authorized users only.
 
